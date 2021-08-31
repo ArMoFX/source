@@ -355,7 +355,7 @@ ID="InputMessageAudio",
 audio_ = GetInputFile(audio),
 duration_ = "",
 title_ = title or "",
-performer_ = "سورس sourceالرسمي",
+performer_ = "سورس Evelyn الرسمي",
 caption_ = caption or ""
 }},func or dl_cb,nil)
 end
@@ -7952,13 +7952,13 @@ end
 Text = [[
 *⦑ Welcome To MY Source ⦒*
 
-𓂅 *. source Source *
+ *. source Source *
 *••┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉••*
-𓂅 . [Source Channel .](https://t.me/wwwuw)
+ . [Source Channel .](https://t.me/PHP_ABA)
 
-𓂅 . [The Developer .](https://t.me/oo6oo)
+ . [The Developer .](https://t.me/ARMOF)
 *••┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉••*
-𓂅 . [Bot TwsL Dev .](https://t.me/wwwuw)
+. [Bot TwsL Dev .](https://t.me/CCCMCCC)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 end
@@ -8987,8 +8987,8 @@ if text == "تحديث السورس ⚙️" then
 send(msg.chat_id_,msg.id_,'*⌔ ⍒ تم تحديث السورس*')
 os.execute('rm -rf source.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/KainSource/source/master/source.lua')
-os.execute('wget https://raw.githubusercontent.com/KainSource/source/master/start.lua')
+os.execute('wget https://raw.githubusercontent.com/ArMoFX/source/master/source.lua')
+os.execute('wget https://raw.githubusercontent.com/ArMoFX/source/master/start.lua')
 dofile('source.lua')  
 return false
 end
